@@ -17,6 +17,9 @@
     --texto-2: 24px;
     --texto-3: 28px;
     --texto-4: 36px;
+
+    --cantos-botoes: 20px;
+    --cantos-cards: 5px;
 }
 
 body {
