@@ -5,3 +5,50 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body {
+    font-family: 'Quicksand', sans-serif;
+}
+
+
+
+/* css mercado */
+.mercado {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    border: 2px solid blue;
+}
+
+
+.compras {
+    height: 25vh;
+    border: 1px solid red;
+}
+
+main>div {
+    border: 1px solid black;
+}
+
+.mercearia {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    margin: 2% 10%;
+    text-align: center;
+
+}
+
+.vegano {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    margin: 2% 10%;
+    text-align: center;
+}
+
+section>h2, div>h1 {
+    text-align: center;
+}
+
+/* final css mercado */
