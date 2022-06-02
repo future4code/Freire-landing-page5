@@ -92,8 +92,16 @@ header #login-signin {
     font-size: var(--texto-1);
 
     width: fit-content;
-    padding: 5px;
+    padding: 5px 20px;
 
     border-radius: 20px;    
     border: solid red;
+}
+
+header #login-signin div {
+    margin-left: 10px;
+}
+
+header #login-signin div {
+    margin-left: 10px;
 }
