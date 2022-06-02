@@ -17,6 +17,9 @@
     --texto-2: 24px;
     --texto-3: 28px;
     --texto-4: 36px;
+
+    --cantos-botoes: 20px;
+    --cantos-cards: 5px;
 }
 
 body {
@@ -46,10 +49,12 @@ header #logo {
 
 header #menu {
     display: flex;
+    align-items: center;
+    text-align: left;
 
-    width: fit-content;
+    width: 100%;
     height: 50px;
-    padding: 5px;
+    padding: 0 20px;
 
     border: solid red;
 }
@@ -61,19 +66,25 @@ header #menu a {
     color: black;
 
     margin: 0 25px;
+    width: 100%;
 }
 
 header #search-box {
     display: inline-flex;
 
-    width: fit-content;
+    width: 100%;
     height: 50px;
+    padding: 0 20px;
 
     border: solid red;
 }
 
-header #search-box label {
+header #search-box input {
+    border-radius: var(--cantos-botoes);
 
+    width: 100%;
+    margin-right: 10px;
+    padding: 0 20px;
 }
 
 header #search-box span {
@@ -89,13 +100,18 @@ header #login-signin {
     align-items: center;
     justify-content: space-between;
 
-    font-size: var(--texto-1);
-
     width: fit-content;
-    padding: 5px;
+    padding: 5px 20px;
 
-    border-radius: 20px;    
+    border-radius: var(--cantos-botoes);    
     border: solid red;
+}
+
+header #login-signin p {
+    font-size: var(--texto-1);
+    font-weight: bold;
+
+    margin-left: 20px;
 }
 
 /* css mercado */
