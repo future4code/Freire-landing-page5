@@ -53,5 +53,7 @@ section>h2, div>h1 {
     text-align: center;
 }
 /* final css mercado */
-
 /* restaurante */
+.comer{
+    font-display: grid;
+}
