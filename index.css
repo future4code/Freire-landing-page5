@@ -257,7 +257,7 @@ header #login-signin p {
     
 }
 
-.row .card4 #img5 {
+.row .card5 #img5 {
     border-radius: 5%;
     width: 100%;
     height: 100%;
@@ -362,15 +362,48 @@ section{
 
 /* rodape */
 .redes {
-    font-size: 150%;
-    text-align: center;
     margin-top: 10%;
     margin-bottom: 5%;
+    background-color: transparent; 
+    color: var(--cor-1);
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr;
+
+}
+
+.redes .sobre-nos .titulorodape {
+    font-size: var(--texto-1);
+    text-align: center;   
+}
+
+.redes .sobre-nos .fale{
+    padding-top: 1%;
+    color: var(--cor-2);
+}
+
+.redes .sobre-nos .somos{
+    padding-top: 1%;
+    color: var(--cor-2);
+}
+
+.redes .sobre-nos .funcionarios{
+    padding-top: 1%;
+    color: var(--cor-2);
+}
+
+.redes .sobre-nos .projetos{
+    padding-top: 1%;
+    color: var(--cor-2);
 }
 
 
-.redes .bf {
-    background-color: var(--cor-3);
+.redes .contatos .TextRedes {
+    font-size: var(--texto-1);
+    margin-left: 33%;
+}
+
+.redes .contatos .bf {
+    background-color: transparent;
     border: 0px;
 }
 
@@ -378,37 +411,48 @@ section{
     opacity: 70%;
 }
 
-.redes .facebook {
-    padding: 0%;
+.redes .contatos .facebook {
+    padding-top: 10%;
     width: 60%;
-    background-color: var(--cor-3);
+    background-color: transparent;
 }
 
-.redes .bt {
-    background-color: var(--cor-3);
+.redes .contatos .bt {
+    background-color: transparent;
     border: 0px;
 }
 
-.redes .bt:hover {
+.redes .contatos .bt:hover {
     opacity: 70%;
 }
 
-.redes .twitter {
+.redes .contatos .twitter {
     width: 60%;
     margin-left: 2%;
 }
 
-.redes .bi{
-    background-color:var(--cor-3); 
+.redes .contatos .bi{
+    background-color:transparent; 
     border: 0px;
 }
 
-.redes .bi:hover {
+.redes .contatos .bi:hover {
     opacity: 70%;
 }
 
-.redes .insta {
-    margin-top: 10%;
+.redes .contatos .insta {
     width: 60%;
     margin-left: 2%;
+}
+
+.redes .caixa-texto{
+    padding-left: 13%;
+}
+
+.redes .caixa-texto .titulotexto4food {
+    font-size: var(--texto-2);
+}
+
+.redes .caixa-texto .texto4food {
+    font-size: var(--texto-4);
 }
