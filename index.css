@@ -350,6 +350,56 @@ section{
 ------------------------------------------------------------
 ----------------------------------------------------------*/
 
+/* texto */
+.maintexto{
+    display: flex;
+}
+
+.maintexto .fun-clien{
+    width: 50%;
+    border: 1px solid;
+    display: flex;
+    background-color: transparent; 
+    border-radius: 5%;
+}
+
+.maintexto .fun-clien .imgfun-clien{
+    width: 60%;
+    margin-top: 2.5%;
+    margin-left: 2.5%;
+    border-radius: 5%;
+    margin-bottom: 2.5%;
+}
+
+.maintexto .fun-clien .textofun-clien{
+    margin: 1%;
+    margin-top: 2.5%;
+}
+
+
+.maintexto .familia{
+    width: 50%;
+    display: flex;
+    border: 1px solid var(--cor-2);
+    border-radius: 5%;
+}
+
+.maintexto .familia .imgfamilia{
+    width: 60%;
+    margin-top: 2.5%;
+    margin-left: 2.5%;
+    margin-bottom: 2.5%;
+    border-radius: 5%;
+}
+
+.maintexto .familia .texto-familia{
+    margin-top: 2.5%;
+    margin-left: 1%;
+    margin-right: 1%;
+    font-size: var(--texto-3);
+    
+}
+
 /* começo baixe o app */
 
 .imgbaixeapp {
@@ -367,7 +417,7 @@ section{
 
 /* rodape */
 .redes {
-    margin-top: 10%;
+    margin-top: 1%;
     margin-bottom: 5%;
     background-color: transparent; 
     color: var(--cor-1);
