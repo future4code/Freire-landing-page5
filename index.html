@@ -13,62 +13,66 @@
 </head>
 <body>
     <header>
-        <img id="logo" src="./img/cabecalho/4food.png" alt="logo do site">
-
-        <nav id="menu">
-            <a href="">
-                <input type="radio" id="menu-home" name="menu-home">
-                <label for="menu-home">
-                    <p>Home</p>
-                </label>
+        <nav>
+            <a href="" id="logo">
+                <img src="./img/cabecalho/4food.png" alt="logo do site">
             </a>
-
-            <a href="">
-                <input type="radio" id="menu-category" name="menu-category">
-                <label for="menu-category">
-                    <p>Home</p>
+            
+            <div id="category-container">
+                <input type="checkbox" id="category-box">
+                <label for="category-box">
+                    <span class="material-symbols-rounded">menu</span>
                 </label>
-            </a>
-        </nav>
 
-        <div id="search-container">
-            <div id="search-box">
-                <label for="search-icon">
-                    <span class="material-symbols-rounded">search</span>
-                </label>
-                <input placeholder="Buscar" type="search" id="search-icon" name="search-icon">
+                <ul>
+                    <li>Opção 1</li>
+                    <li>Opção 2</li>
+                    <li>Opção 3</li>
+                    <li>Opção 4</li>
+                    <li>Opção 5</li>
+                </ul>
             </div>
-        </div>
         
-        <div id="login-signin">
-            <span class="material-symbols-rounded">person_filled</span>
-
-            <div>
-                <p>login</p>
-                <p>sign-in</p>
+            <div id="search-container">
+                <div id="search-box">
+                    <label for="search-icon">
+                        <span class="material-symbols-rounded">search</span>
+                    </label>
+                    <input placeholder="Buscar" type="search" id="search-icon" name="search-icon">
+                </div>
             </div>
-        </div>
+            
+            <div id="login-container">
+                <span class="material-symbols-rounded">person_filled</span>
+
+                <div>
+                    <p>login</p>
+                    <p>sign-in</p>
+                </div>
+            </div>
+        </nav>
     </header>
 
     <main>
-        <div class="row">
-            <div class="card1">
+        <section id="row-best-products">
+            <div class="product">
                 <img src="./img/primeira div/fotohamburgur.jpg" id="img1" alt="hamburguer"> 
             </div>
-            <div class="card2">
+            <div class="product">
                 <img src="./img/primeira div/pizza1.jpg" id="img2" alt="pizza" > 
             </div>
-            <div class="card3">
+            <div class="product">
                 <img src="./img/primeira div/massas.jpg" id="img3" alt="massa"> 
             </div>
-            <div class="card4">
+            <div class="product">
                 <img src="./img/primeira div/mamao_widexl.jpg" id="img4" alt="mamao"> 
             </div>
-            <div class="card5">
+            <div class="product">
                 <img src="./img/primeira div/verduras.jfif" id="img5" alt="verduras"> 
             </div>
-        </div>
+        </section>
 
+        <!--
         <div>
             
         </div>
@@ -163,7 +167,6 @@
             </button>
         </a>
     </footer>
+    -->
 </body>
 </html>
-
-Conversar em #boas-vindas-e-regras
