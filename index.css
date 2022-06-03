@@ -333,6 +333,8 @@ main #row-two-options .option .card-box .card {
 
     overflow: hidden;
 
+    border-radius: var(--cantos-cards);
+
     border: solid blue;    
 }
 
