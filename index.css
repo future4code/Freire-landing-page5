@@ -72,6 +72,11 @@ header #menu a {
     margin: 0 20px;
 }
 
+header #menu a:hover {
+
+}
+
+
 header #search-container {
     display: flex;
     text-align: center;
@@ -282,9 +287,9 @@ header #login-signin p {
     border: 1px solid red;
 }
 
-main>div {
+/*main>div {
     border: 1px solid black;
-}
+}*/
 
 .mercearia {
     display: grid;
