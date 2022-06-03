@@ -13,13 +13,15 @@
     --cor-4: #DDA15E;
     --cor-5: #BC6C25;
 
-    --texto-1: 16px;
-    --texto-2: 24px;
-    --texto-3: 28px;
-    --texto-4: 36px;
-
-    --cantos-botoes: 20px;
+    --texto-1: 32px;
+    --texto-2: 26px;
+    --texto-3: 20px;
+    --texto-4: 14px;
+            
+    --cantos-botoes: 25px;
     --cantos-cards: 5px;
+
+    --tempo-transicao: 0.5s;
 }
 
 body {
@@ -28,78 +30,153 @@ body {
     padding: 0 30px;
 }
 
+/*CABEÇALHO - INÍCIO*/
 header {
     width: 100%;
     height: 100px;
-    padding: 5px;
 
     display: flex;
     align-items: center;
     justify-content: space-between;
-
-    border: solid var(--cor-1);
 }
 
 header #logo {
-    height: 80px;
+    height: 90px;
     box-sizing: border-box;
-
-    border: solid red;
 }
 
 header #menu {
     display: flex;
+    align-items: center;
+    text-align: center;
 
-    width: fit-content;
+    width: 100%;
     height: 50px;
-    padding: 5px;
-
-    border: solid red;
+    padding: 0 20px;
+    margin: 0 20px;
 }
 
 header #menu a {
     font-size: x-large;
     text-decoration: none;
 
-    color: black;
+    color: var(--cor-1);
 
-    margin: 0 25px;
+    margin: 0 20px;
 }
 
-header #search-box {
-    display: inline-flex;
+header #search-container {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: right;
 
-    width: fit-content;
+    width: 100%;
     height: 50px;
-
-    border: solid red;
+    margin: 0 20px;
+    padding: 5px 15px;
 }
 
-header #search-box label {
+header #search-container #search-box {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
 
+    width: 170px;
+    height: 50px;
+    margin: 0 20px;
+    padding: 5px 15px;
+
+    border-radius: var(--cantos-botoes);
+
+    transition: all var(--tempo-transicao);
 }
 
-header #search-box span {
+header #search-container #search-box:hover {
+    background-color: var(--cor-3);
+}
+
+header #search-container #search-box:focus-within {
+    background-color: var(--cor-3);
+
+    width: 100%;
+}
+
+header #search-container #search-box span {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    
     height: 100%;
-    font-size: 36px;
+    margin-left: 10px;
 
-    border: solid red;
+    font-size: var(--texto-1);
+
+    color: var(--cor-1);
+}
+
+header #search-container #search-box input {
+    border-width: none;
+
+    width: 90px;
+    height: 40px;
+    padding-left: 8px;
+
+    background-color: transparent;
+    color: var(--cor-2);
+
+    font-size: var(--texto-3);
+
+    transition: all var(--tempo-transicao);
+}
+
+header #search-container #search-box input:focus {
+    outline: none;
+
+    width: 100%;
+}
+
+header #search-container #search-box input::placeholder {
+    color: var(--cor-1);
 }
 
 header #login-signin {
     display: flex;
     text-align: center;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
 
-    font-size: var(--texto-1);
+    width: 100%;
+    height: 50px;
+    max-width: max-content;
+    padding: 5px 30px;
 
-    width: fit-content;
-    padding: 5px;
-
-    border-radius: 20px;    
-    border: solid red;
+    border-radius: var(--cantos-botoes);
+    
+    background-color: var(--cor-1);
+    color: var(--cor-3);
 }
+
+header #login-signin span {
+    font-size: var(--texto-1);
+}
+
+header #login-signin p {
+    font-size: var(--texto-4);
+    font-weight: bold;
+
+    width: 100%;
+    margin: 0 5px;
+}
+/*CABEÇALHO - FIM*/
+
+/*----------------------------------------------------------*/
+/*----------------------------------------------------------*/
+/*----------------------------------------------------------*/
+/*----------------------------------------------------------*/
+/*----------------------------------------------------------*/
 
 /*css pimeira Div*/
 
@@ -181,6 +258,12 @@ header #login-signin {
     height: 100%;
 }
 
+/*----------------------------------------------------------*/
+/*----------------------------------------------------------*/
+/*----------------------------------------------------------*/
+/*----------------------------------------------------------*/
+/*----------------------------------------------------------*/
+
 /* css mercado */
 .mercado {
     display: grid;
@@ -188,7 +271,6 @@ header #login-signin {
     grid-template-rows: 1fr;
     border: 2px solid blue;
 }
-
 
 .compras {
     height: 25vh;
@@ -225,9 +307,14 @@ background-color: white;
 .fundo-merc{
     background-color: #BC6C25;
 }
-
-
 /* final css mercado */
+
+/*----------------------------------------------------------*/
+/*----------------------------------------------------------*/
+/*----------------------------------------------------------*/
+/*----------------------------------------------------------*/
+/*----------------------------------------------------------*/
+
 /* restaurante */
 .comer{
     display: grid;
