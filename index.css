@@ -282,6 +282,52 @@ main #row-best-products .product img {
     transform: scale(2);
 }
 
+/*SECTION 2 - 2 CAIXAS COM 4 OPÇÕES DE CARDS EM CADA*/
+main #row-two-options {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+
+    width: 100%;
+
+    border-bottom: solid;
+}
+
+main #row-two-options .option {
+    display: block;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+
+    padding: 15px 25px;
+
+    border: solid red;    
+}
+
+main #row-two-options .option .card-box {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 2%;
+    column-gap: 2%;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+
+    padding: 15px 25px;
+
+    border: solid green;    
+}
+
+main #row-two-options .option .card-box .card {
+    width: 100%;
+    height: 200px;
+
+    border: solid blue;    
+}
+
+
 /*-------------------*/
 .row{
     margin: 1%;
