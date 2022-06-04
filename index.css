@@ -109,7 +109,7 @@ header nav #category-container ul {
     width: 100vw;
     height: 100vh;
     top: 100px;
-    left: 0;
+    left: -100vw;
     padding: 0 80px;
 
     background-color: #283618;
@@ -127,7 +127,7 @@ header nav #category-container ul li {
 }
 
 header nav #category-container #category-box:checked ~ ul {
-    display: block;
+    left: 0vw;
 
     opacity: 1;
 }
@@ -412,7 +412,7 @@ main #row-restaurant {
 
 main #row-restaurant .card-box {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
     column-gap: 2%;
 
     padding: 15px 25px;
@@ -426,8 +426,7 @@ main #row-restaurant .card-box .card {
     
     overflow: hidden;
 
-    height: 300px;
-    padding: 5px 15px;
+    height: 450px;
 
     border-radius: var(--cantos-cards);
 
@@ -435,6 +434,7 @@ main #row-restaurant .card-box .card {
 }
 
 main #row-restaurant .card-box .card img {
+    width: 100%;
     height: 100%;
 }
 
