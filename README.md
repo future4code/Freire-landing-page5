@@ -9,11 +9,11 @@ Facebook -
 Instagram -
 Email -
 
-E Gabriel...
-Whatsapp - 
-Facebook -
-Instagram -
-Email -
+E Gabriel da Silva Cruz
+Whatsapp - (11) 99485 - 0356
+Facebook - Gabriel Silva
+Instagram - Gcruz.12
+Email -gscruz.1997@gmail.com
 
 O projeto ficou pronto em 3 dias, e usamos tanto a biblioteca de fontes quanto a de ícones do Google.
 As imagens foram tiradas do Google Imagens e do site Freepik.
