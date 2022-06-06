@@ -1,20 +1,24 @@
-Link do SURGE:
-http://4food-lucas-gabriel.surge.sh
 
-Site criado somente com HTML5 E CSS3, por:
+# Landing Page 5 - Freire (Labenu)
 
-Lucas Monteiro Santos
-Whatsapp - (37) 99840-7843
-Facebook - https://www.facebook.com/LucasMonsan
-Instagram - https://www.instagram.com/lucasmonsan/
-Email - lucasmonsan@gmail.com
+Website created only with HTML and CSS.
 
-E Gabriel da Silva Cruz
-Whatsapp - (11) 99485 - 0356
-Facebook - Gabriel Silva
-Instagram - Gcruz.12
-Email - gscruz.1997@gmail.com
 
-O projeto ficou pronto em 3 dias, e usamos tanto a biblioteca de fontes quanto a de ícones do Google.
-As imagens foram tiradas do Google Imagens e do site Freepik.
-# Freire-landing-page5
+## Authors
+
+- [@lucasmonsan](https://github.com/lucasmonsan)
+- [@GCruz-12](https://github.com/GCruz-12)
+
+## Color Reference
+
+| Color             | Hex                                                                |
+| ----------------- | ------------------------------------------------------------------ |
+| Dark Olive Green |#606C38|
+| Kombu Green |#283618|
+| Cornsilk |#FEFAE0|
+| White |#FFFFFF|
+
+
+## Demo
+
+SURGE's link: http://4food-lucas-gabriel.surge.sh/
