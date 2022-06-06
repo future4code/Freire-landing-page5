@@ -474,6 +474,10 @@ main #row-market .card-box .card img {
     height: 100%;
 }
 
+main #row-market .products .card-box .card img:hover {
+    transform: scale(1.1);
+}
+
 /*----------------------------------------------------------
 ------------------------------------------------------------
 ----------------------------------------------------------*/
@@ -534,6 +538,7 @@ main #row-restaurant .card-box .card img {
     height: 100%;
 }
 
+<<<<<<< HEAD
 main #row-restaurant .card-box .card .card-info {
     display: flex;
     justify-content: space-around;
@@ -560,6 +565,10 @@ main #row-restaurant .card-box .card .card-info div p {
 
 main #row-restaurant .card-box .card h1 {
     font-size: var(--texto-0);
+=======
+main #row-restaurant .card-box .card img:hover {
+    transform: scale(1.1);
+>>>>>>> 78379e6a9bd029db6aba17e12ea98636839d1225
 }
 
 /*----------------------------------------------------------
@@ -697,6 +706,7 @@ footer section #menu-links a {
     font-size: var(--texto-4);
 }
 
+<<<<<<< HEAD
 footer section #social-icons {
     display: flex;
     text-align: center;
@@ -1580,5 +1590,10 @@ footer section #institutional-text p {
         margin-top: 10%;
         padding-top: 2%;
         border-top: solid var(--cor-3);
+=======
+@media (min-width: 640px) {
+    div {
+        background-color: aquamarine;
+>>>>>>> 78379e6a9bd029db6aba17e12ea98636839d1225
     }
 }
